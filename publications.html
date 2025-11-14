@@ -1,45 +1,70 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Publications - Chanchal Saha</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Publications — Chanchal Saha</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
+  <div class="container">
+    <header class="site-header">
+      <div class="header-left">
         <h1>Publications</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="research.html">Research</a>
-            <a href="projects.html">Projects</a>
-            <a href="publications.html" class="active">Publications</a>
-            <a href="cv.html">CV</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div class="lead">Selected journal and conference publications</div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html" class="active">Publications</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </header>
 
-    <section class="container">
-        <h2>Journal Publications</h2>
+    <main>
+      <section>
+        <div class="card">
+          <div class="section-title">
+            <h2>Journal Publications</h2>
+          </div>
 
-        <div class="pub-card">
-            <h3>Dual-core silver-coated plasmonic sensor modeling using machine learning techniques</h3>
-            <p><strong>Authors:</strong> Chanchal Saha (First Author), Others</p>
-            <p><strong>Journal:</strong> Heliyon (Elsevier, CellPress, Q1, Scopus & Web of Science Indexed)</p>
-            <p><strong>Year:</strong> 2024</p>
-            <p><strong>Citations:</strong> 14 (Google Scholar)</p>
-
-            <p class="pub-desc">
+          <div class="pub-list">
+            <div class="pub-card">
+              <h3>Dual-core silver-coated plasmonic sensor modeling using machine learning techniques</h3>
+              <p><strong>Authors:</strong> Chanchal Saha (First Author), Others</p>
+              <p><strong>Journal:</strong> Heliyon (Elsevier, CellPress, Q1, Scopus & Web of Science Indexed)</p>
+              <p><strong>Year:</strong> 2024</p>
+              <p><strong>Citations:</strong> 14 (Google Scholar)</p>
+              <p class="pub-desc">
                 This work presents an intelligent modeling approach for dual-core silver-coated plasmonic
                 sensors using machine learning techniques. The study demonstrates strong predictive accuracy
                 while reducing computational cost, showing the potential of ML-assisted sensor design.
-            </p>
+              </p>
+              <p>
+                <a href="https://scholar.google.com/citations?user=5ZFZUxYAAAAJ&hl=en" target="_blank" class="btn">View on Google Scholar</a>
+                <a href="https://www.cell.com/heliyon/fulltext/S2405-8440(24)14206-5" target="_blank" class="btn">Download PDF</a>
+              </p>
+            </div>
 
-            <a href="https://scholar.google.com/citations?user=5ZFZUxYAAAAJ&hl=en" class="btn" target="_blank">View on Google Scholar</a>
-            <a href="https://www.cell.com/heliyon/fulltext/S2405-8440(24)14206-5" class="btn" target="_blank">Download PDF</a>
+            <!-- আরও publications এখানে একইভাবে add করতে পারেন -->
+          </div>
         </div>
-    </section>
+      </section>
 
-    <footer>
-        <p>© 2025 — Chanchal Sah
+      <aside class="sidebar">
+        <div class="card">
+          <h3>Want more?</h3>
+          <p>See the full list of publications on my Google Scholar.</p>
+          <p><a class="btn" href="https://scholar.google.com/citations?user=5ZFZUxYAAAAJ&hl=en" target="_blank">Visit Google Scholar</a></p>
+        </div>
+      </aside>
+    </main>
+
+    <div class="footer">
+      © 2025 — Chanchal Saha
+    </div>
+  </div>
+</body>
+</html>
